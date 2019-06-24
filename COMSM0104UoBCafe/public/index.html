@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+		<title>UoB Cafe</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" /> 
+      	<link rel="stylesheet" href="assets/css/default.css" />
+ 	    <link rel="stylesheet" href="assets/css/component.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script src="assets/js/modernizr.custom.js"></script> 
+
+  </head>
+
+    <body >
+
+    <!-- Header -->
+    <header id="header" class="alt">
+			<div class="logo"><img src="images/blank.jpg" alt="" /></div>
+			<a href="login.html">Login</a>
+			<a href="Signup.html">Signup</a>
+			<a href="location.html"><i class="material-icons">&#xe0c8;</i></a>
+			<a href="#menu">Menu</a>
+		</header>
+		
+		<!-- Nav -->
+		<nav id="menu">
+			<ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="drinks.html">Drinks</a></li>
+				<li><a href="drinks.html">Food</a></li>
+			</ul>
+		</nav>
+
+    <!-- Banner -->
+		<section class="banner full" >
+			<article>
+				<img src="images/Untitled.png" alt="" />
+				<div class="inner">
+					<header>
+						<p>Our cafe's provide important social role, providing places to meet, <br/>share ideas and gather one's thoughts</p>
+							
+					</header>
+				</div>
+			</article>
+			<article>
+				<img src="images/slide2.png" alt="" />
+				<div class="inner">
+					<header>
+						<p>The university's alternative to coffee cups is saving energy resources and costs</font></p>
+					</header>
+				</div>
+			</article>
+			<article>
+				<img src="images/coffee1.jpg"  alt="" />
+				<div class="inner">
+					<header>
+						<p>Great value locally sourced food and some of the best value drinks, <br/> An ultimate student hangout</p>
+						
+					</header>
+				</div>
+			</article>
+			<article>
+				<img src="images/slide4.jpg"  alt="" />
+		<div class="inner">
+					<header>
+						<p>Great value locally sourced food and some of the best value drinks, <br/> An ultimate student hangout</p>
+						
+					</header>
+				</div>
+			</article>
+
+		</section>
+
+
+		<!-- Scripts -->
+	    <script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+        <script src="assets/js/toucheffects.js"></script>
+
+<style>
+    img {
+        max-width: 99vw !important;
+        max-height: 99vh !important;
+    }
+</style>
+<script>
+    function FitImagesToScreen() {
+        var images = document.getElementsByTagName('img');
+        if(images.length > 0){
+            document.styleSheets[1].rules[0].style["max-height"]=((100/images.length)-1)+"vh";
+            for(var i=0; i < images.length; i++){
+                if(images[i].width >= (window.innerWidth - 10)){
+                    images[i].style.width = 'auto';
+                }
+            }
+        }
+    }
+</script>
+
+  </body>
+</html>
