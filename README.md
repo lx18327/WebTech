@@ -1,2 +1,2 @@
 # WebTech
-A Basic Website for ordering Coffee and Food
+A basic and simple Website for ordering Coffee and Food
